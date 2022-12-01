@@ -1,0 +1,119 @@
+.showcase-header {
+    text-align: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.showcase-container {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.search-form {
+    padding: 15px;
+}
+
+.search-input {
+    height: 45px;
+    width: 50%;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+
+.search-button {
+    margin-top: -3px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+search-input::focus {
+    outline: none;
+}
+
+.tweet {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+
+.tweet-extended-media {
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    padding-right: 5px;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.tweet-profile-pic {
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: left;
+}
+
+.tweet-author {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tweet-username {
+    padding-right: 10px;
+}
+
+.tweet-handle {
+    color: rgb(105, 102, 102);
+}
+
+.tweet-body {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.tweet-metrics {
+    text-align: left;
+    width: 50%;
+    justify-content: left;
+}
+
+.tweet-metrics img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-image {
+    max-width: 100%;
+    max-height: 100%;
+    height: 300px;
+    border-radius: 20px;
+}

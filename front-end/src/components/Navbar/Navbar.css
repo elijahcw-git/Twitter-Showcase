@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+
+.nav-icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.nav-header {
+    font-family: "Oleo Script", cursive;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    font-size: xx-large;
+    color: white;
+}
+
+.navbar {
+    width: 70%;
+    margin: 2% auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 20%;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background: #cac4ceff !important;
+    color: black !important;
+}
+
+.nav-link.active {
+    color: black !important;
+    background: white !important;
+}
