@@ -4,7 +4,7 @@ from flask_restful import Api
 from dotenv import load_dotenv
 from flask_cors import CORS
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="./build", static_url_path="/")
 cors = CORS(app)
 api = Api(app)
 load_dotenv()
@@ -51,6 +51,13 @@ def get_random_tweet():
 
     return random_tweet_data
 
+@app.route("/", defaults={"path": ""})
+@app.route("/<string:path>")
+def index(path):
+    try:
+        return app.send_static_file(path)
+    except:
+        return app.send_static_file("index.html")
 
 if __name__ == "__main__":
     app.run(port=5001, debug=True)
