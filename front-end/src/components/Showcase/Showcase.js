@@ -17,7 +17,7 @@ const Showcase = () => {
 
     const getTweets = async () => {
         try {
-            const response = await axios
+            await axios
                 .get("/SearchTweets", { params: { userInput: searchInput } })
                 .then((tweets) => {
                     setTweetData(tweets.data.statuses);
